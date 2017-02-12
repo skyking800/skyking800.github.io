@@ -1,0 +1,58 @@
+body,p,pre,ul,h1,h2,h3,h4,h5,h6,ol,dl,dt,dd,input,figure,a
+{padding:0px;margin:0px;}
+img{border: none;}
+*{box-sizing:border-box;}
+a{display: block;}
+.header{width: 100%;height:200px;background-color: #e1dfe0; }
+.logo{width:154px;height:114px;float: left;margin-top: 52px;margin-left: 155px;background-image: url(images/logo.png);background-size: 100% 100%;}
+.daohang{width:712px;height:40px;float: left;margin-left: 84px;margin-top: 128px;font-size: 18px;line-height: 40px;color: #020202;}
+.zi1{width:86px;height:40px;float: left; }
+.zi1 a{width:86px;height:40px;float: left;color: #020202;text-decoration: none;}
+.zi1 a:hover{text-decoration: underline;}
+.zi2{width:108px;height:40px;float: left;text-align: right;}
+.zi2 a{width:86px;height:40px;float: left;color: #020202;text-decoration: none;}
+.zi2 a:hover{text-decoration: underline;}
+.zi3{width:108px;height:40px;float: left;text-align: right;}
+.zi3 a{width:86px;height:40px;float: left;color: #020202;text-decoration: none;}
+.zi3 a:hover{text-decoration: underline;}
+.zi4{width:108px;height:40px;float: left;text-align: right;}
+.zi4 a{width:86px;height:40px;float: left;color: #020202;text-decoration: none;}
+.zi4 a:hover{text-decoration: underline;}
+
+
+.zi5{width:108px;height:40px;float: left;margin-left: 50px;text-align: right;}
+.zi5 a{width:86px;height:40px;float: left;color: #020202;}
+
+.zi6{width:108px;height:40px;float:right;text-align: right;}
+.zi6 a{width:86px;height:40px;float: left;color: #020202;text-decoration: none;}
+.zi6 a:hover{text-decoration: underline;}
+.ssl{width:105px;height:20px;float: left;margin-left: 61px;margin-top: 136px;}
+.ssl input{width:105px;height:20px;border:1px solid #ccc;padding-left: 5px;}
+.banner a{width:1200px;height:522px;background-color: yellow;margin:0 auto;margin-top: 50px;background-image: url(images/banner.png);background-size: 100% 100%;}
+.more{width:1200px;height:50px;background-color: white;margin:0 auto;margin-top: 30px;font-size: 16px;text-align: center;line-height: 50px;color: black;}
+.more2{width:1200px;height:50px;background-color: white;margin:0 auto;margin-top: 0px;font-size: 12px;text-align: center;line-height: 50px;color: black;}
+.tv1 a{width:1200px;height:389px;margin: 0 auto;background-image: url(images/406.png);background-size: 100% 100%;}
+.tv2 a{width:1200px;height:389px;margin: 0 auto;background-image: url(images/409.png);background-size: 100% 100%;margin-top: 30px;}
+
+.bottom{width:1200px;height:300px;background-color: #425153;margin: 0 auto;margin-top: 0px;margin-top: 50px;display:flex;justify-content:space-around;}
+
+.bottom a{text-decoration: none;}
+.bottom a:hover{text-decoration: underline;}
+.l1{width:250px;height:200px;float: left;margin-top: 50px;margin-left: 50px;}
+.l1-1 a{width:250px;height:30px;font-size:18px;line-height: 30px;color:#14c4e4;}
+.l1-2 a{width:250px;height:20px;font-size:16px;line-height: 20px;margin-top: 10px;color:#eff1f1;}
+.l1-3 a{width:250px;height:14px;font-size:12px;line-height: 14px;margin-top: 10px;color:#eff1f1;}
+.l2{width:150px;height:200px;float: left;margin-top: 50px;margin-left: 50px;}
+.l2-1 a{width:150px;height:20px;font-size:16px;line-height: 20px;margin-top: 40px;color:#eff1f1;}
+.l2-2 a{width:150px;height:14px;font-size:12px;line-height: 14px;margin-top: 10px;color:#eff1f1;}
+.l3{width:300px;height:200px;float: left;margin-top: 50px;margin-left: 100px;}
+.yx{width:150px;height:30px;float: left;}
+.yx input{width:150px;height:30px;padding-left: 10px;}
+.fs a{width:80px;height:30px;float: left;margin-left: 30px;font-size: 16px;line-height: 30px;border:1px solid #14c4e4;text-align: center;color: #ffffff;text-decoration: none;}
+.fs a:hover{text-decoration: none;}
+.l4{width:100px;height:150px;float: left;margin-top: 10px;}
+.l4-1 a{width:100px;height:20px;font-size:16px;line-height: 20px;color:#eff1f1;}
+.l4-2 a{width:100px;height:14px;font-size:12px;line-height: 14px;margin-top: 10px;color:#eff1f1;}
+.l5{width:170px;height:150px;float: right;margin-top: 10px;}
+.l5-1 a{width:170px;height:20px;font-size:16px;line-height: 20px;color:#eff1f1;text-align: right;}
+.l5-2 a{width:170px;height:40px;margin-top: 30px;background-image: url(images/tb.png);background-size: 100% 100%;}

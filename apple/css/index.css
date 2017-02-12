@@ -1,0 +1,166 @@
+body,ul,ol,dl,h1,h2,h3,h4,h5,h6,p,input{padding: 0;margin: 0;list-style: none}
+img{border: none;}
+a{text-decoration: none;}
+
+body{font-size: 12px;font-family: "微软雅黑"；}
+/*内容*/
+ *{
+ 	box-sizing:border-box;
+ }
+ body{background: #f2f2f2}
+ @font-face {
+  font-family: 'iconfont';  /* project id 222823 */
+  src: url(http://at.alicdn.com/t/font_tyxfbzd4frdiy66r.eot);
+  src: url(http://at.alicdn.com/t/font_tyxfbzd4frdiy66r.eot?#iefix) format('embedded-opentype'),
+  url(http://at.alicdn.com/t/font_tyxfbzd4frdiy66r.woff) format('woff'),
+  url(http://at.alicdn.com/t/font_tyxfbzd4frdiy66r.ttf) format('truetype'),
+  url(http://at.alicdn.com/t/font_tyxfbzd4frdiy66r.svg#iconfont) format('svg');
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 222823 */
+  src: url(http://at.alicdn.com/t/font_quyoqavwl9bsatt9.eot);
+  src: url(http://at.alicdn.com/t/font_quyoqavwl9bsatt9.eot?#iefix) format('embedded-opentype'),
+  url(http://at.alicdn.com/t/font_quyoqavwl9bsatt9.woff) format('woff'),
+  url(http://at.alicdn.com/t/font_quyoqavwl9bsatt9.ttf) format('truetype'),
+  url(http://at.alicdn.com/t/font_quyoqavwl9bsatt9.svg#iconfont) format('svg');
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 222823 */
+  src: url(http://at.alicdn.com/t/font_r0cyic531p5y7gb9.eot);
+  src: url(http://at.alicdn.com/t/font_r0cyic531p5y7gb9.eot?#iefix) format('embedded-opentype'),
+  url(http://at.alicdn.com/t/font_r0cyic531p5y7gb9.woff) format('woff'),
+  url(http://at.alicdn.com/t/font_r0cyic531p5y7gb9.ttf) format('truetype'),
+  url(http://at.alicdn.com/t/font_r0cyic531p5y7gb9.svg#iconfont) format('svg');
+}
+.content{width: 100%;height: 200px;background: red;}
+.list1{width: 25%;height: 200px;background: blue;float: left;background-image: url(../image/l1.jpg);background-position: center;border: 2px solid #fff;border-left: none
+}
+.list2{width: 25%;height: 200px;background: yellow;float: left;background-image: url(../image/l2.jpg);background-position: center;border: 2px solid #fff;border-left: none
+}
+.list3{width: 25%;height: 200px;background: black;float: left;background-image: url(../image/l3.jpg);background-position: center;border: 2px solid #fff;border-left: none
+}
+.list4{width: 25%;height: 200px;background: #ccc;float: left;background-image: url(../image/l4.jpg);background-position: center;border: 2px solid #fff;border-left: none;border-right: none
+}
+
+@media screen and (max-width:1068px){
+    .content a{
+        width: 50%;
+        height: 200px;
+    }
+    .lsit1{
+        background-image:url("../image/m1.jpg");
+        border-right: 2px solid #fff; }
+    .list2{
+        background-image:url("../image/m2.jpg");
+        border-bottom: 2px solid #fff; }
+    .list3{
+        background-image:url("../image/m3.jpg");
+        border-right: 2px solid #fff; }
+    .list4{
+        background-image:url("../image/m4.jpg");
+        border-bottom: 2px solid #fff;
+    }
+
+}
+    @media screen and (max-width:736px){
+    .content a{
+        width: 100%;
+        height: 200px;
+    }
+    .list1{
+        background-image:url("../image/s1.jpg");
+        border-bottom: 2px solid #fff; }
+    .list2{
+        background-image:url("../image/s2.jpg");
+        border-bottom: 2px solid #fff; }
+    .list3{
+        background-image:url("../image/s3.jpg");
+        border-bottom: 2px solid #fff; }
+    .list4{
+        background-image:url("../image/s4.jpg");
+        border-bottom: 2px solid #fff;
+    }
+
+}
+
+
+
+/*头部*/
+.top{width: 100%;height: 44px;background: #313131;/*position: relative;float: left;*/}
+.top1{width: 1000px;height: 44px; margin: 0 auto;/*background: red;*/text-align: justify;-webkit-user-select:none ;
+-moz-user-select:none ;
+-ms-user-select:none ;
+user-select:none ;cursor: default;font-size: 16px}
+.top1:after{
+    content: "";
+    display: inline-block;
+    width: 100%
+}
+.box{height: 44px;line-height: 44px;display: inline-block;}
+#tupian1{font-family: 'iconfont'; font-size: 20px}
+#tupian2{font-family: 'iconfont';font-size: 20px }
+#tupian3{font-family: 'iconfont';font-size: 20px }
+#tupian4{font-family: 'iconfont'; font-size: 20px}
+.top1 a{ display: inline-block;color: #fff;transition:all 0.5s;}
+.top1 a:hover{color:#999 }
+.show{display: none}
+@media screen and (max-width:1068px){.top1{width: 100%;/*height: 44px;*/padding:0 20px}
+/*.box a{margin: 20px}*/
+
+}
+@media screen and (max-width:736px){.top1{width: 100%;line-height: 44px} 
+/*#hid{display: none}*/
+.show{display: inline-block;}
+.box{display: none;}
+#tu{display: inline-block;}
+}
+
+
+
+.banner{width: 100%;height: 512px;background: white;overflow: hidden;position: relative;float: left;}
+.zi{width: 100%;height: auto; margin-top: 10px
+
+;text-align: center; float: left; }
+
+
+.zi1{ height: auto;  margin-top: 20px; /*line-height: auto;*/  font-size:30px; 
+ font-family:   "HanHei SC","PingHei","PingFang SC","STHeitiSC-Light","Helvetica Neue","Helvetica","Arial",sans-serif;color: #454545;
+ }
+
+.zi2{ height: auto; font-size:35px;
+
+ font-family: "微软雅黑" ;font-weight: normal;  color:#333333; }
+.large{width: 100%;height: 432px;background-size: auto 100%;background-image: url(../image/l.jpg);background-position: center bottom;position: absolute;left: 0;top: 30%}
+
+@media screen and (max-width:1068px){
+  .banner{height: 467px}.large{
+  height: 360px;background-image: url(../image/m.jpg);top:35%;
+  }.zi1{margin-top: 28px}
+}
+@media screen and (max-width:736px){
+  .banner{height: 500px}.large{
+
+  height: 360px;background-image: url(../image/s.jpg); top:38%; }.zi1{margin-top: 40px}
+}
+
+/*底部*/
+.bottom{width: 980px;height: auto;margin: 0 auto;}
+.foot{width: 20%;height: auto;/*background: red;*/float: left;}
+.title1{/*margin-top: 25px;*/margin-bottom: 12px;font-size: 12px}
+.fenlei{margin-bottom: 8px;font-size: 12px;color: #666666;}
+.fenlei:hover{color: #333;text-decoration: underline;}
+#jia{display: none;}
+
+@media screen and (max-width:1068px){.bottom{width: 100%}.foot{width: 20%;}
+}
+#yihang{padding
+  : 0 20px}
+  @media screen and (max-width:736px){
+    .title1{height: 30px;cursor: pointer;border-bottom: 1px solid #ccc}
+    .fenlei{display: none;}
+        .foot{width: 100%;padding: 0 20px}
+        #jia{display: inline-block;float: right;}
+  }
+
+

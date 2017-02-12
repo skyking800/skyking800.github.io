@@ -1,0 +1,90 @@
+body,p,pre,ul,h1,h2,h3,h4,h5,h6,ol,dl,dt,dd,input,figure,a
+{padding:0px;margin:0px;}
+img{border: none;}
+*{box-sizing:border-box;}
+a{display: block;}
+input{border: none;}
+body{background-color: #fffcfc;}
+.header{width: 100%;height:200px;background-color: #e1dfe0; }
+.logo{width:154px;height:114px;float: left;margin-top: 52px;margin-left: 155px;background-image: url(images/logo.png);background-size: 100% 100%;}
+.daohang{width:712px;height:40px;float: left;margin-left: 84px;margin-top: 128px;font-size: 18px;line-height: 40px;color: #020202;}
+.zi1{width:86px;height:40px;float: left; }
+.zi1 a{width:86px;height:40px;float: left;color: #020202;}
+.zi2{width:108px;height:40px;float: left;text-align: right;}
+.zi2 a{width:86px;height:40px;float: left;color: #020202;text-decoration: none;}
+.zi2 a:hover{text-decoration: underline;}
+.zi5{width:108px;height:40px;float: left;margin-left: 50px;text-align: right;}
+.zi5 a{width:86px;height:40px;float: left;color: #020202;text-decoration: none;}
+.zi5 a:hover{text-decoration: underline;}
+.zi6{width:108px;height:40px;float:right;text-align: right;}
+.zi6 a{width:86px;height:40px;float: left;color: #020202;text-decoration: none;}
+.zi6 a:hover{text-decoration: underline;}
+.ssl{width:105px;height:20px;float: left;margin-left: 61px;margin-top: 136px;}
+.ssl input{width:105px;height:20px;border:1px solid #ccc;padding-left: 5px;}
+.banner{width:740px;height:auto;margin: 0 auto;margin-top: 50px;}
+.banner a{width:740px;height:350px;background-image: url(images/banner.png);background-size: 100% 100%;position: relative;}
+.ydk{width:100px;height:20px;margin: 0 auto;position:absolute;top:580px;left:620px;}
+
+.d0{width:10px;height:10px;float: left;border-radius: 50%;background-color: #fbed05;margin-top: 5px;cursor: pointer;}
+.d1{width:10px;height:10px;float: left;border-radius: 50%;background-color:#fdfdfb;margin-top: 5px;margin-left: 20px;cursor: pointer;}
+.d1:hover{background-color:#fbed05; }
+
+.section1{width:1000px;height:350px;margin: 0 auto;margin-top: 36px;border:1px solid #ccc;}
+.rw{width:400px;height:350px;float: left;background-color: red;background-image: url(images/rw1.png);background-size: 100% 100%;}
+.wz{width:400px;height:350px;float:right;}
+.sk{width:150px;height:24px;margin-left: 50px;margin-top: 50px;font-size: 20px;line-height: 24px;text-align: left;}
+.N{width:150px;height:80px;float: left;margin-left: 50px;margin-top: 20px;font-size: 12px;line-height: 24px;text-align: left;}
+.hb{width:180px;height:82px;float: left;margin-left: 15px;margin-top: 20px;background-image: url(images/huaban.png);background-size: 100% 100%;}
+.an1{width:100px;height:33px;margin-left: 50px;float: left;}
+.an1 input{width:100px;height:33px;border:1px solid #ccc;margin-top: 50px;background-color: #08b9ed;color: white;}
+.price{width:50px;height:20px;float: left;margin-left: 20px;margin-top: 60px;}
+.section2{width:1000px;height:350px;margin: 0 auto;margin-top: 36px;border:1px solid #ccc;}
+.rw2{width:400px;height:350px;float:right;background-image: url(images/rw2.png);background-size: 100% 100%;}
+.wz2{width:400px;height:350px;float:left;}
+.T{width:120px;height:170px;margin-top: 50px;margin-left: 100px;background-image: url(images/t-s.png);background-size: 100% 100%;}
+.an2{width:100px;height:33px;margin-left: 100px;float: left;}
+.an2 input{width:100px;height:33px;border:1px solid #ccc;margin-top: 50px;background-color: #08b9ed;color: white;}
+.section3{width:1000px;height:320px;margin: 0 auto;margin-top: 36px;border:1px solid #ccc;margin-bottom: 40px;}
+.kj1{width:475px;height:320px;float: left;background-color: red;}
+.t1 a{width:475px;height:270px;background-image: url(images/nan.png);background-size: 100% 100%;}
+.word1{width:475px;height:50px;background-color: #e4e5e5;}
+.word1-1{width:100px;height:20px;margin: 0 auto;padding-top: 5px;font-size: 18px;text-align: center;line-height: 20px;}
+.word1-2 a{width:auto;height:14px;margin: 0 auto;padding-top: 10px;font-size: 12px;text-align: center;line-height: 14px;color:#020202;text-decoration: none;}
+.word1-2:hover a{color:#27a5f9;}
+.kj2{width:475px;height:320px;float: right;background-color: red;}
+.t2 a{width:475px;height:270px;background-image: url(images/nv.png);background-size: 100% 100%;}
+.word2-2 a{width:auto;height:14px;margin: 0 auto;padding-top: 10px;font-size: 12px;text-align: center;line-height: 14px;color:#020202;text-decoration: none;}
+.word2-2:hover a{color:#27a5f9;}
+.section4{width:1000px;height:633px;margin: 0 auto;border:1px solid #ccc;}
+.sec-1{width:1000px;height:300px;float:left;margin-top: 10px}
+.sec-1-1 a{width:300px;height:300px;float:left;margin-left: 100px;background-color: yellow;background-image: url(images/yifu.jpg);background-size: 100% 100%;}
+.sec-1-2 a{width:300px;height:300px;float:left;margin-left: 200px;background-color: yellow;background-image: url(images/yifu.jpg);background-size: 100% 100%;background-image: url(images/beibao.jpg);background-size: 100% 100%;}
+.sec-2{width:1000px;height:300px;float:left;margin-top: 10px}
+.sec-2-1 a{width:300px;height:300px;float:left;margin-left: 100px;background-color: yellow;background-image: url(images/toukui.jpg);background-size: 100% 100%;}
+.sec-2-2{width:300px;height:300px;float:left;margin-left: 200px;}
+.more a{width:160px;height:40px;background-color: #29a4c6;margin: 0 auto;margin-top: 135px;font-size:24px;text-align: center;text-decoration: none;line-height: 40px;color:black}
+.more a:hover{color:#ccc;}
+.bottom{width:1000px;height:300px;background-color: #425153;margin: 0 auto;margin-top: 50px;}
+.bottom a{text-decoration: none;}
+.bottom a:hover{text-decoration: underline;}
+.l1{width:250px;height:200px;float: left;margin-top: 50px;margin-left: 50px;}
+.l1-1 a{width:250px;height:30px;font-size:18px;line-height: 30px;color:#14c4e4;}
+.l1-2 a{width:250px;height:20px;font-size:16px;line-height: 20px;margin-top: 10px;color:#eff1f1;}
+.l1-3 a{width:250px;height:14px;font-size:12px;line-height: 14px;margin-top: 10px;color:#eff1f1;}
+.l2{width:150px;height:200px;float: left;margin-top: 50px;margin-left: 50px;}
+.l2-1 a{width:150px;height:20px;font-size:16px;line-height: 20px;margin-top: 40px;color:#eff1f1;}
+.l2-2 a{width:150px;height:14px;font-size:12px;line-height: 14px;margin-top: 10px;color:#eff1f1;}
+.l3{width:300px;height:200px;float: left;margin-top: 50px;margin-left: 100px;}
+.yx{width:150px;height:30px;float: left;}
+.yx input{width:150px;height:30px;padding-left: 10px;}
+.fs a{width:80px;height:30px;float: left;margin-left: 30px;font-size: 16px;line-height: 30px;border:1px solid #14c4e4;text-align: center;color: #ffffff;text-decoration: none;}
+.fs a:hover{text-decoration: none;}
+.l4{width:100px;height:150px;float: left;margin-top: 10px;}
+.l4-1 a{width:100px;height:20px;font-size:16px;line-height: 20px;color:#eff1f1;}
+.l4-2 a{width:100px;height:14px;font-size:12px;line-height: 14px;margin-top: 10px;color:#eff1f1;}
+.l5{width:170px;height:150px;float: right;margin-top: 10px;}
+.l5-1 a{width:170px;height:20px;font-size:16px;line-height: 20px;color:#eff1f1;text-align: right;}
+.l5-2 a{width:170px;height:40px;margin-top: 30px;background-image: url(images/tb.png);background-size: 100% 100%;}
+
+
+

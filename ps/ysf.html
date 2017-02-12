@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- javascript 运算符 -->
+	<script>
+	//<1>  算术运算符 +  -  *  /  %  ++  --
+
+//	var nu1=100;
+//	var nu2=30;
+//	alert(nu1%nu2)
+
+ //   var nu1=100;
+ //   var nu2=6;
+ //   var yushu=nu1%nu2;
+ //   alert(yushu);
+ //  var result=nu1++;//先赋值后运算
+ //    var result=++nu1;//先运算后赋值
+
+ //  alert(result)
+
+ //字符串和其他数据类型都可以相加 结果都为连接之后的字符串
+
+     //var str1="hello";
+     //var str2="world";
+     //alert(typeof(str1+str2));
+     //alert(str1-str2);//NaN  特殊的数值 not a nunber  d
+     //当进行算术运算得不到期望的结果的时候就会返回NaN
+     //字符串由数值组成 可以进行- * / %      +只会让两个数值连接
+
+//es6  **
+//alert(2**3);
+
+//<2>关系运算符(比较运算符)
+// >  < >=  <=   ==    ===    !=不等于    !==
+//运算结果是布尔值
+//1 都是数值  正常比较大小
+
+//2 都是字符串 从第一个字母就开始是比较ASCII码值的大小 如果相等比较下一位  A-Z 65-90   a-z  97-122
+
+//3 字符串和数值 会尝试把字符串转化为数值比较  转换不成功结果固定为false
+//===不仅比较大小还要比较数据类型是否相同
+//ture  false  进行比较的时候相当于1    0
+
+
+
+  // var nu1="ture";
+  // var nu2="false";
+  // var result=nu1==nu2;
+  // console.log(result);
+
+ // console.log(true==1);
+ // unfined==null  为真
+
+// console.log(unfined==null) 
+
+
+//<3>赋值运算符   
+//= +=  -=  *=  /=    %=  
+
+ // var  num=100;
+ // var  num2=num;
+
+    // var num=10;
+    // var num2=num+10;
+    // alert(num2);
+
+    // num+=10;
+
+    // num%=3;
+
+
+  // <4>逻辑运算     与&&   或||   非！  
+   // console.clear();清除之前的内容
+
+   //&&  同真才为真
+   //  true   false   false
+   //  true   true    true
+   //  false  false   false
+   //  真值    假值   假值
+   //  真值1   真值2  真值2
+   //  假值1   假值2  假值1
+
+   //||  有真为真
+   //  true   false   true
+   //  true   true    true
+   //  false  false   false
+   //  真值   假值    真值
+   //  真值1  真值2   真值1
+   //  假值1  假值2   假值2
+
+     // var boo1=true;
+     // var boo2=false;
+     // console.log(boo1&&boo2);
+
+
+
+  //<5>其他类型  
+   //JS中的假值 0   ""   undefine   false  null  NaN
+      // var num1=0,num2=false;
+      // console.log(num1||num2);
+
+
+   //取反  真值变为 false   假值变为true
+   // var num1=5;
+   // console.log(!num1);
+//<6>一元运算符
+//typeof  new  实例化对象   delete   删除对象的属性
+//+  -
+    // var num=-10;
+    //  alert(-num)
+//<7>三元运算符 三元表达式
+// 表达式?当表达式的结果为真的时候的值  :当表达式结果为假的时候的值
+    //  var a=5;
+    //  var b=10;
+    //  var c=a<b?b:a;
+    // alert(c);
+
+ //特殊运算符
+    //()提高算术优先级    
+    //运行函数
+    //，声明多个变量的时候用，分隔   使用多个参数的时候用，分隔
+
+//总结
+//1 算术运算符 +  - *  /  %  ++  --  **
+//2 关系运算符 >  <  >=  <= ==  ===  !=  !==
+//3 赋值运算符 = += -=  *= /=  %=
+//4 逻辑运算符 &&  ||   ！
+//5 一元运算符 typeof  new  delete  +  -
+//6 三元运算符 表达式？值1:值2
+//7 特殊运算符()  ,
+
+
+
+
+
+
+
+
+
+
+
+
+	</script>
+</head>
+<body>
+
+ <a href="http://skyking800.github.io/fanke/index.html">凡客官网</a>
+<a href="http://skyking800.github.io/yd/yidong.html">移动官网</a>
+<!-- <a href="http://skyking800.github.io/apple1/apple.html">苹果</a> -->
+
+<a href="http://skyking800.github.io/app/pingguo.html">苹果</a>
+<!-- <a href="http://skyking800.github.io/apple/index.html">苹果官网</a> -->
+
+<a href="http://skyking800.github.io/bootstrap/index.html">栅格化布局</a>
+
+<!-- <a href="http://skyking800.github.io/wy/wy1/wy1.html">网页1</a> -->
+<a href="http://skyking800.github.io/wy/wy2/wy2.html">网页2</a>
+<a href="http://skyking800.github.io/wy/wy3/wy3.html">网页3</a>
+<a href="http://skyking800.github.io/wy/wy4/wy4.html">网页4</a>
+<a href="http://skyking800.github.io/wy/wy5/wy5.html">网页5</a>
+
+<a href="http://skyking800.github.io/tianmao/tianmao.html">天猫</a>
+
+
+<a href="http://skyking800.github.io/ydd1/dl/dl.html">移动端登录页面</a>
+<a href="http://skyking800.github.io/ydd1/zc/zc.html">移动端注册页面</a>
+<a href="http://skyking800.github.io/ydd1/xgmm/xgmm.html">移动端修改密码页面</a>
+<a href="http://skyking800.github.io/ydd1/zhmm/zhmm.html">移动端找回密码页面</a>
+<a href="http://skyking800.github.io/sc1/sc.html">书城1</a>
+	
+</body>
+</html>
