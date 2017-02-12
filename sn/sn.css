@@ -136,17 +136,18 @@ input{margin: 0;padding: 0;border: none;}
     .bottomk{width:100%;height:3.2rem;background-color: #fff}
     .bottom{width:100%;height:1.5rem;background-image: url(images/bottom.png);background-size: 100% 100%;}
     .bottomword{width:100%;height:0.88rem;background-color: #ffffff;display: flex;}
-    .dbword{width:1.48rem;height:0.28rem;font-size: 14px;text-align: center;line-height: 0.28rem;float: left;margin-top: 0.3rem;border-right: 1px solid #ccc}
-    .dbword1{width:1.48rem;height:0.28rem;font-size: 14px;text-align: center;line-height: 0.28rem;float: left;margin-top: 0.3rem;}
-    .copyright{width:5.8rem;height:0.28rem;font-size: 14px;line-height: 0.28rem;margin: 0 auto;text-align: center;}
-    .logo{width:100%;height:0.9rem;margin-top: 0.83rem;display: flex;justify-content:space-around;}
+    .dbword{width:1.48rem;height:0.28rem;font-size: 12px;text-align: center;line-height: 0.28rem;float: left;margin-top: 0.3rem;border-right: 1px solid #ccc}
+    .dbword1{width:1.48rem;height:0.28rem;font-size: 12px;text-align: center;line-height: 0.28rem;float: left;margin-top: 0.3rem;}
+    .copyright{width:100%;height:0.28rem;font-size: 12px;line-height: 0.28rem;margin: 0 auto;text-align: center;}
+    .logo{width:100%;height:0.9rem;display: flex;justify-content:space-around;}
     .logo1{width:0.5rem;height:0.5rem;margin-top: 0.34rem;background-image: url(images/shouye.png);background-size: 100% 100%;}
     .logo2{width:0.5rem;height:0.5rem;margin-top: 0.34rem;background-image: url(images/fenlei.png);background-size: 100% 100%;}
     .logo3{width:0.5rem;height:0.5rem;margin-top: 0.34rem;background-image: url(images/qingdan.png);background-size: 100% 100%;}
     .logo4{width:0.5rem;height:0.5rem;margin-top: 0.34rem;background-image: url(images/yigou.png);background-size: 100% 100%;}
     .logo5{width:0.5rem;height:0.5rem;margin-top: 0.34rem;background-image: url(images/libao.png);background-size: 100% 100%;}
-    .popo{width:100%;height:0.28rem;display: flex;float: left;font-size: 12px;line-height: 0.28rem;justify-content:space-around;}
-    .popoword{width:1.2rem;height:0.28rem;text-align: center;}
+    .popo{width:100%;height:0.28rem;display: flex;float: left;font-size: 10px;line-height: 0.28rem;justify-content:space-around;}
+    .popoword{width:1.5rem;height:0.28rem;text-align: center;}
+    .fixed{width:100%;height:auto;position: fixed;bottom: 0px;background-color: #fff;}
     
     }
 
@@ -278,15 +279,16 @@ input{margin: 0;padding: 0;border: none;}
     .bottomword{width:100%;height:0.88rem;background-color: #ffffff;display: flex;}
     .dbword{width:1.48rem;height:0.28rem;font-size: 14px;text-align: center;line-height: 0.28rem;float: left;margin-top: 0.3rem;border-right: 1px solid #ccc}
     .dbword1{width:1.48rem;height:0.28rem;font-size: 14px;text-align: center;line-height: 0.28rem;float: left;margin-top: 0.3rem;}
-    .copyright{width:5.8rem;height:0.28rem;font-size: 14px;line-height: 0.28rem;margin: 0 auto;text-align: center;}
-    .logo{width:100%;height:0.9rem;margin-top: 0.83rem;display: flex;justify-content:space-around;}
+    .copyright{width:100%;height:auto;font-size: 14px;line-height: 0.28rem;margin: 0 auto;text-align: center;}
+    .logo{width:100%;height:0.9rem;display: flex;justify-content:space-around;}
     .logo1{width:0.5rem;height:0.5rem;margin-top: 0.34rem;background-image: url(images/shouye.png);background-size: 100% 100%;}
     .logo2{width:0.5rem;height:0.5rem;margin-top: 0.34rem;background-image: url(images/fenlei.png);background-size: 100% 100%;}
     .logo3{width:0.5rem;height:0.5rem;margin-top: 0.34rem;background-image: url(images/qingdan.png);background-size: 100% 100%;}
     .logo4{width:0.5rem;height:0.5rem;margin-top: 0.34rem;background-image: url(images/yigou.png);background-size: 100% 100%;}
     .logo5{width:0.5rem;height:0.5rem;margin-top: 0.34rem;background-image: url(images/libao.png);background-size: 100% 100%;}
     .popo{width:100%;height:0.28rem;display: flex;float: left;font-size: 12px;line-height: 0.28rem;justify-content:space-around;}
-    .popoword{width:1.2rem;height:0.28rem;text-align: center;}
+    .popoword{width:1.4rem;height:0.28rem;text-align: center;}
+    .fixed{width:100%;height:auto;position: fixed;bottom: 0px;background-color: #fff;}
     
     }
 
@@ -422,7 +424,8 @@ input{margin: 0;padding: 0;border: none;}
     .dbword{width:1.48rem;height:0.28rem;font-size: 14px;text-align: center;line-height: 0.28rem;float: left;margin-top: 0.3rem;border-right: 1px solid #ccc}
     .dbword1{width:1.48rem;height:0.28rem;font-size: 14px;text-align: center;line-height: 0.28rem;float: left;margin-top: 0.3rem;}
     .copyright{width:5.8rem;height:0.28rem;font-size: 14px;line-height: 0.28rem;margin: 0 auto;text-align: center;}
-    .logo{width:100%;height:0.9rem;margin-top: 0.83rem;display: flex;justify-content:space-around;}
+    .logo{width:100%;height:0.9rem;display: flex;justify-content:space-around;}
+    .fixed{width:100%;height:auto;position: fixed;bottom: 0px;background-color: #fff;}
     .logo1{width:0.5rem;height:0.5rem;margin-top: 0.34rem;background-image: url(images/shouye.png);background-size: 100% 100%;}
     .logo2{width:0.5rem;height:0.5rem;margin-top: 0.34rem;background-image: url(images/fenlei.png);background-size: 100% 100%;}
     .logo3{width:0.5rem;height:0.5rem;margin-top: 0.34rem;background-image: url(images/qingdan.png);background-size: 100% 100%;}
@@ -563,7 +566,7 @@ input{margin: 0;padding: 0;border: none;}
     .dbword{width:1.48rem;height:0.28rem;font-size: 14px;text-align: center;line-height: 0.28rem;float: left;margin-top: 0.3rem;border-right: 1px solid #ccc}
     .dbword1{width:1.48rem;height:0.28rem;font-size: 14px;text-align: center;line-height: 0.28rem;float: left;margin-top: 0.3rem;}
     .copyright{width:5.8rem;height:0.28rem;font-size: 14px;line-height: 0.28rem;margin: 0 auto;text-align: center;}
-    .logo{width:100%;height:0.9rem;margin-top: 0.83rem;display: flex;justify-content:space-around;}
+    .logo{width:100%;height:0.9rem;display: flex;justify-content:space-around;}
     .logo1{width:0.5rem;height:0.5rem;margin-top: 0.34rem;background-image: url(images/shouye.png);background-size: 100% 100%;}
     .logo2{width:0.5rem;height:0.5rem;margin-top: 0.34rem;background-image: url(images/fenlei.png);background-size: 100% 100%;}
     .logo3{width:0.5rem;height:0.5rem;margin-top: 0.34rem;background-image: url(images/qingdan.png);background-size: 100% 100%;}
@@ -571,5 +574,9 @@ input{margin: 0;padding: 0;border: none;}
     .logo5{width:0.5rem;height:0.5rem;margin-top: 0.34rem;background-image: url(images/libao.png);background-size: 100% 100%;}
     .popo{width:100%;height:0.28rem;display: flex;float: left;font-size: 12px;line-height: 0.28rem;justify-content:space-around;}
     .popoword{width:1.2rem;height:0.28rem;text-align: center;}
+    .fixed{width:100%;height:auto;position: fixed;bottom: 0px;background-color: #fff;}
+
+
+
     
     }
