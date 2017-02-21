@@ -22,7 +22,10 @@
 	  	  <div class="gg">
 	  	  	<a href="#">网站公告</a>
 	  	  </div>
-	  	    <div class="wx"><a href="#"></a></div>
+	  	    <div class="wx"><a href="#" class="wx2"></a>
+                    <div class="ewm"><a href="" class="ewm2"></a></div>
+
+			</div>
 	  	    <div class="xl"><a href="#"></a></div>
 	  </div>
 
@@ -80,7 +83,11 @@
 
 <!-- banner -->
 <div class="banner">
+
 	<a href="#"></a>
+	<div class="banner1"></div>
+
+
 	<div class="jt-left"></div>
 	<div class="jt-rigth"></div>
 	<div class="diankuang">
@@ -416,4 +423,20 @@
 	
 	
 </body>
+<script>
+	var wx=document.getElementsByClassName("wx2")[0]
+	var ewm=document.getElementsByClassName("ewm2")[0]
+    wx.onmouseover=function () {
+		ewm.style.display="block"
+
+	}
+	wx.onmouseout=function () {
+		ewm.style.display="none"
+
+	}
+
+
+
+
+</script>
 </htm
