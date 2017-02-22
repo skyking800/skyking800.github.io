@@ -3,7 +3,38 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+
 	<link rel="stylesheet" href="yidong.css">
+	<script>
+		window.onload=function () {
+//
+			var bn=document.querySelector(".box2")
+			var num=0;
+			setInterval(function () {
+          bn.style.transition="all 1s"
+
+				num++;
+//				if(num==9){
+//					num=0
+//				}
+				bn.style.marginLeft=-num*297+"px"
+
+			},2000);
+			bn.addEventListener("transitionend",function(){
+				if (num==8){
+					bn.style.transition="none"
+					bn.style.marginLeft="0"
+					num=0
+				}
+			})
+//
+
+		}
+
+
+
+
+	</script>
 </head>
 <body>
 <!-- 顶部登录栏 -->
@@ -200,31 +231,54 @@
 
 
  <!-- 滚动栏 -->
-  <div class="c">
-     	<div class="c1"><a href="#"></a>
-     		
-            
+<div class="box">
+	<div class="box1">
+		<div class="box2">
+			<div class="box3"><a href=""><img src="tupian/c-1.jpg" alt=""></a></div>
+			<div class="box3"><a href=""><img src="tupian/c-2.jpg" alt=""></a></div>
+			<div class="box3"><a href=""><img src="tupian/c-3.jpg" alt=""></a></div>
+			<div class="box3"><a href=""><img src="tupian/c-4.jpg" alt=""></a></div>
+			<div class="box3"><a href=""><img src="tupian/c-1.jpg" alt=""></a></div>
+			<div class="box3"><a href=""><img src="tupian/c-2.jpg" alt=""></a></div>
+			<div class="box3"><a href=""><img src="tupian/c-3.jpg" alt=""></a></div>
+			<div class="box3"><a href=""><img src="tupian/c-4.jpg" alt=""></a></div>
+			<div class="box3"><a href=""><img src="tupian/c-1.jpg" alt=""></a></div>
+			<div class="box3"><a href=""><img src="tupian/c-2.jpg" alt=""></a></div>
+			<div class="box3"><a href=""><img src="tupian/c-3.jpg" alt=""></a></div>
+			<div class="box3"><a href=""><img src="tupian/c-4.jpg" alt=""></a></div>
 
-     	</div>
-           
+		</div>
+	</div>
+	<div class="xjt1"><a href="#"></a></div>
+	<div class="xjt2"><a href="#"></a></div>
 
-     	<div class="c2"><a href="#"></a>
-     		
-     	</div>
-
-
-     	<div class="c3"><a href="#"></a>
-     		
-
-     	</div>
+</div>
 
 
-     	<div class="c4"><a href="#"></a>
-     		
-     	</div>
-     	<div class="xjt1"><a href="#"></a></div>
-     	<div class="xjt2"><a href="#"></a></div>
-  </div>
+  <!--<div class="c">-->
+     	<!--<div class="c1"><a href="#"></a>-->
+
+
+
+     	<!--</div>-->
+
+
+     	<!--<div class="c2"><a href="#"></a>-->
+
+     	<!--</div>-->
+
+
+     	<!--<div class="c3"><a href="#"></a>-->
+
+
+     	<!--</div>-->
+
+
+     	<!--<div class="c4"><a href="#"></a>-->
+
+     	<!--</div>-->
+
+  <!--</div>-->
 
 
     <!--  4G栏  -->	

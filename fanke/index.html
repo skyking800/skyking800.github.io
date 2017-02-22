@@ -82,23 +82,33 @@
 </div>
 
 <!-- banner -->
-<div class="banner">
 
-	<a href="#"></a>
-	<div class="banner1"></div>
+<div class="section">
+
+   <div class="bannerz">
+	<div class="banner"><a href=""><img src="images/10.jpg" alt=""></a></div>
+	<div class="banner"><a href=""><img src="images/11.jpg" alt=""></a></div>
+	<div class="banner"><a href=""><img src="images/12.jpg" alt=""></a></div>
+	<div class="banner"><a href=""><img src="images/13.jpg" alt=""></a></div>
+	<div class="banner"><a href=""><img src="images/14.jpg" alt=""></a></div>
+	<div class="banner"><a href=""><img src="images/15.jpg" alt=""></a></div>
+	<div class="banner"><a href=""><img src="images/16.jpg" alt=""></a></div>
+</div>
 
 
 	<div class="jt-left"></div>
 	<div class="jt-rigth"></div>
+
 	<div class="diankuang">
-	  <div class="yuan1"></div>
-	  <div class="yuan2"></div>
-	  <div class="yuan3"></div>
-	  <div class="yuan4"></div>
-	  <div class="yuan5"></div>
-	  <div class="yuan6"></div>
-	  <div class="yuan7"></div>	
+	  <div class="yuan"></div>
+	  <div class="yuan"></div>
+	  <div class="yuan"></div>
+	  <div class="yuan"></div>
+	  <div class="yuan"></div>
+	  <div class="yuan"></div>
+	  <div class="yuan"></div>
 	</div>
+
 </div>
 
 
@@ -435,8 +445,25 @@
 
 	}
 
+	var dk=ocument.getElementsByClassName("banner")
+	var baz=ocument.getElementsByClassName("yuan")
+	console.log(dk);
+	for(let i=0;i<dk.length;i++) {
+		dk[i].onmouseover=function(){
+			for (let j=0; j<baz.length;j++){
+				baz[j].style.zIndex="1";
+				baz[j].style.opacity="0";
+				dk[j].style.background = "";
+			}
+			baz[i].style.zIndex="2";
+			baz[i].style.opacity="1";
+			this.style.background="#920500";
+		}
+	}
+
+
 
 
 
 </script>
-</htm
+</html
