@@ -9,27 +9,132 @@
 		window.onload=function () {
 //
 			var bn=document.querySelector(".box2")
-			var num=0;
-			setInterval(function () {
-          bn.style.transition="all 1s"
-
+			var t1=setInterval(move,3000)
+			var num=1;
+			function move(){
+				flag=false;
+				if(num==1||num==6){
+					bn.style.transition="all 1s"
+				}
+                
 				num++;
-//				if(num==9){
-//					num=0
-//				}
+				
+
+
 				bn.style.marginLeft=-num*297+"px"
 
-			},2000);
+			}
 			bn.addEventListener("transitionend",function(){
-				if (num==8){
+				if (num==9){
 					bn.style.transition="none"
-					bn.style.marginLeft="0"
-					num=0
+					bn.style.marginLeft="-297px"
+					num=1
 				}
-			})
-//
+				if(num==0){
+					bn.style.transition="none"
+					bn.style.marginLeft="-2376px"
+					num=8
 
-		}
+				}
+				flag=true;
+				
+
+			});
+			var box1=document.querySelector(".box")
+
+            box1.onmouseover=function(){
+            clearInterval(t1)
+            }
+
+            box1.onmouseout=function() {
+            t1=setInterval(move,3000)
+
+            }
+            
+             var next=document.querySelector(".xjt2");
+             var back=document.querySelector(".xjt1");
+
+             var flag=true
+             next.onclick=function(){
+             	if(flag){
+             		move()
+             	}
+             	
+             }
+             back.onclick=function(){
+             	if(flag){
+             		num-=2;
+             		move()
+             	}
+             }
+
+             //banner轮播
+
+          var banbox=document.querySelector(".bannerbox1")
+            var i=1;
+            var t2=setInterval(move2,2000)
+            function move2() {
+            	flag1=false
+            	if(i==1){
+            	banbox.style.transition="all 1s"
+            	}
+               
+                i++;
+//                if(num==6){
+//                    num=0
+//                }
+                banbox.style.marginLeft=-i*740+"px"
+
+            }
+            banbox.addEventListener("transitionend",function () {
+                if(i==10){
+                    banbox.style.transition="none"
+                    banbox.style.marginLeft="-740px"
+                    i=1
+                }
+                if(i==0){
+					banbox.style.transition="none"
+					banbox.style.marginLeft="-6660"
+					i=9
+
+				}
+				flag1=true
+
+            })
+
+
+            var banbox2=document.querySelector(".bannerbox")
+
+            banbox2.onmouseover=function(){
+            clearInterval(t2)
+            }
+
+            banbox2.onmouseout=function() {
+            t2=setInterval(move2,2000)
+
+            }
+             var flag1=true
+             var back2=document.querySelector(".zuojt");
+             var next2=document.querySelector(".youjt");
+             next2.onclick=function(){
+             	if(flag1){
+                 move2()
+
+
+                        }
+             	}
+             back2.onclick=function(){
+             	if(flag1){
+             	i-=2;
+             	move2()
+                 }
+             }           
+
+
+
+             }
+
+		
 
 
 
@@ -145,30 +250,58 @@
 
   <!--  banner内容 -->
 
- <div class="b2"><a href="#" title="手厅一大波红包来袭"></a>
+  <div class="bannerbox">
+  	   <div class="bannerbox1">
+  	    <div class="bannerbox2"><a href=""><img src="tupian/banner9.jpg" alt=""></a></div>
+  	   	<div class="bannerbox2"><a href=""><img src="tupian/banner.jpg" alt=""></a></div>
+  	   	<div class="bannerbox2"><a href=""><img src="tupian/banner2.jpg" alt=""></a></div>
+  	   	<div class="bannerbox2"><a href=""><img src="tupian/banner3.jpg" alt=""></a></div>
+  	   	<div class="bannerbox2"><a href=""><img src="tupian/banner4.jpg" alt=""></a></div>
+  	   	<div class="bannerbox2"><a href=""><img src="tupian/banner5.jpg" alt=""></a></div>
+  	   	<div class="bannerbox2"><a href=""><img src="tupian/banner6.jpg" alt=""></a></div>
+  	   	<div class="bannerbox2"><a href=""><img src="tupian/banner7.jpg" alt=""></a></div>
+  	   	<div class="bannerbox2"><a href=""><img src="tupian/banner8.jpg" alt=""></a></div>
+  	   	<div class="bannerbox2"><a href=""><img src="tupian/banner9.jpg" alt=""></a></div>
+  	   	<div class="bannerbox2"><a href=""><img src="tupian/banner.jpg" alt=""></a></div>
+  	   </div>
 
-      <!-- <div class="banner1"><a href="#"></a></div> -->
+
+  	   <div class="yk">
+     	<div class="y1"></div>
+     	<div class="y1"></div>
+     	<div class="y1"></div>
+     	<div class="y1"></div>
+     	<div class="y1"></div>
+     	<div class="y1"></div>
+     	<div class="y1"></div>
+     	<div class="y1"></div>
+     	<div class="y1"></div>
+
+       </div>
+
+
+
+
+        <div class="zuojt"></div>
+        <div class="youjt"></div>
+
+
+
+
+  </div>
+
+<!--  <div class="b2"><a href="#" title="手厅一大波红包来袭"></a>
+
+      <! <div class="banner1"><a href="#"></a></div> -->
                  
 
 
-     <div class="yk">
-     	<div class="y1"></div>
-     	<div class="y1"></div>
-     	<div class="y1"></div>
-     	<div class="y1"></div>
-     	<div class="y1"></div>
-     	<div class="y1"></div>
-     	<div class="y1"></div>
-     	<div class="y1"></div>
-     	<div class="y2"></div>
-
-     </div>
-        <div class="zuojt"><a href="#"></a></div>
-        <div class="youjt"><a href="#"></a></div>
+     
+        
 
 
- </div>  
-
+<!--  </div> -->  
+ 
 
 
 
@@ -234,23 +367,36 @@
 <div class="box">
 	<div class="box1">
 		<div class="box2">
-			<div class="box3"><a href=""><img src="tupian/c-1.jpg" alt=""></a></div>
+		    <div class="box3"><a href=""><img src="tupian/c-4.jpg" alt=""></a></div>
+
+            <div class="box3"><a href=""><img src="tupian/c-1.jpg" alt=""></a></div>
+
 			<div class="box3"><a href=""><img src="tupian/c-2.jpg" alt=""></a></div>
+
 			<div class="box3"><a href=""><img src="tupian/c-3.jpg" alt=""></a></div>
+
 			<div class="box3"><a href=""><img src="tupian/c-4.jpg" alt=""></a></div>
+
 			<div class="box3"><a href=""><img src="tupian/c-1.jpg" alt=""></a></div>
+
 			<div class="box3"><a href=""><img src="tupian/c-2.jpg" alt=""></a></div>
+
 			<div class="box3"><a href=""><img src="tupian/c-3.jpg" alt=""></a></div>
+
 			<div class="box3"><a href=""><img src="tupian/c-4.jpg" alt=""></a></div>
+
 			<div class="box3"><a href=""><img src="tupian/c-1.jpg" alt=""></a></div>
+
 			<div class="box3"><a href=""><img src="tupian/c-2.jpg" alt=""></a></div>
+
 			<div class="box3"><a href=""><img src="tupian/c-3.jpg" alt=""></a></div>
+
 			<div class="box3"><a href=""><img src="tupian/c-4.jpg" alt=""></a></div>
 
 		</div>
 	</div>
-	<div class="xjt1"><a href="#"></a></div>
-	<div class="xjt2"><a href="#"></a></div>
+	<div class="xjt1"></div>
+	<div class="xjt2"></div>
 
 </div>
 

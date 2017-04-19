@@ -124,25 +124,27 @@ a{display:block;text-decoration:none;}
 .mai6 a{width:60px;height:20px;font-size: 14px;line-height: 20px;text-align: center;color:#333333;}
 
 
-.b2{width:740px;height:350px;float:left;background-color:yellow;margin-right: 12px;z-index: 1}
-.b2 a{width:740px;height:350px;background-image: url(tupian/banner.jpg);background-position:0px 0px;position: relative;z-index: 5;}
-/*.banner1{width:740px;height:350px;float:left;position: absolute; top:163px;left:245px;z-index: 6}
+.bannerbox{width:740px;height:350px;float:left;background-color:red;margin-right: 12px;overflow: hidden;}
+.bannerbox1{width:8140px;height:350px;background-color:blue;transition: all 1s ;margin-left: -740px;}
+.bannerbox2{width:740px;height:350px;float:left;}
+/*.b2 a{width:740px;height:350px;background-image: url(tupian/banner.jpg);background-position:0px 0px;position: relative;z-index: 5;}
+*//*.banner1{width:740px;height:350px;float:left;position: absolute; top:163px;left:245px;z-index: 6}
 .banner1 a{width:740px;height:350px;background-image: url(tupian/banner2.jpg);background-position:0px 0px;position: relative;z-index: 7;}*/
 
 
 
 
-.yk{width:167px;height:15px;float:left;background-color:;position: absolute; top:489px;left:531px;z-index: 20}
-.y1{width:15px;height:15px;float:left;background-color:#d1c6b4;margin-right: 4px;border-radius: 50%;}
-.y2{width:15px;height:15px;float:right;background-color:#e61671;border-radius: 50%;}
+.yk{width:167px;height:15px;position: absolute; top:489px;left:531px;z-index: 20;display: flex;justify-content:space-between;}
+.y1{width:15px;height:15px;background-color:#d1c6b4;border-radius: 50%;}
+
 .y1:hover{background-color: #dd0066;}
 
-.zuojt{width:30px;height:68px;float:left;background-color:;position: absolute; top:304px;left:245px;z-index: 21;}
-.zuojt a{width:30px;height:68px;background-image: url(tupian/5-1.png);background-position:0px -1px;}
-.zuojt a:hover{width:30px;height:68px;background-image: url(tupian/jt.png);background-position:0px -1px;}
-.youjt{width:30px;height:68px;float:right;background-color: ;position: absolute; top:304px;right:364px;z-index:25;}
-.youjt a{width:30px;height:68px;background-image: url(tupian/5-1.png);background-position:-40px -1px;}
-.youjt a:hover{width:30px;height:68px;background-image: url(tupian/jt.png);background-position:-40px -1px;}
+.zuojt{width:30px;height:68px;float:left;background-color:;position: absolute; top:304px;left:245px;z-index: 21;background-image: url(tupian/5-1.png);background-position:0px -1px;cursor: pointer;}
+
+.zuojt:hover{width:30px;height:68px;background-image: url(tupian/jt.png);background-position:0px -1px;}
+.youjt{width:30px;height:68px;float:right;background-color: ;position: absolute; top:304px;right:364px;z-index:25;background-image: url(tupian/5-1.png);background-position:-40px -1px;cursor: pointer;}
+
+.youjt:hover{width:30px;height:68px;background-image: url(tupian/jt.png);background-position:-40px -1px;}
 
 
 
@@ -210,10 +212,10 @@ a{display:block;text-decoration:none;}
 /*滚动栏*/
 .box{width:1200px;height:180px;margin:0 auto;background-color:#dfdfdf;position: relative;z-index: 10;
     position: relative;}
-.box1{width:1176px;height:160px;float: left;margin-left: 12px;margin-top: 10px;
-	overflow: hidden}
-.box2{width:3552px;height:160px;
-display: flex;justify-content: space-between;transition: all 1s ;}
+.box1{width:1176px;height:160px;float: left;margin-left: 12px;margin-top: 10px;overflow: hidden;
+	}
+.box2{width:3849px;height:160px;
+display: flex;justify-content: space-between;transition: all 1s ;margin-left: -297px}
 .box3{width:285px;height:160px;background-color: yellow}
 /*.c1{width:285px;height:160px;float:left;margin-left: 15px;margin-top: 10px;margin-right: 10px}*/
 /*.c1 a{width:285px;height:160px;background-image: url(tupian/c-1.jpg);*/
@@ -227,10 +229,10 @@ display: flex;justify-content: space-between;transition: all 1s ;}
 /*.c3{width:285px;height:160px;float:left;background-color:;margin-right: 10px;margin-top: 10px;}*/
 /*.c3 a{width:285px;height:160px;background-image: url(tupian/c-3.jpg);background-position:0px 0px;}*/
 .xjt1{width:28px;height:35px;float:left;background-color:red;
-position: absolute;left:0px;top:70px;z-index: 50;}
-.xjt1 a{width:28px;height:35px;float:left;background-image: url(tupian/jt-2.png);background-position: 0px 0px;}
-.xjt2{width:28px;height:35px;float:right;background-color:red;position: absolute;right:0px;top:70px;z-index: 51;}
-.xjt2 a{width:28px;height:35px;float:right;background-image: url(tupian/jt-2.png);background-position: -32px 0px;}
+position: absolute;left:0px;top:70px;z-index: 50;background-image: url(tupian/jt-2.png);background-position: 0px 0px;cursor: pointer;}
+/*.xjt1 a{width:28px;height:35px;float:left;background-image: url(tupian/jt-2.png);background-position: 0px 0px;}*/
+.xjt2{width:28px;height:35px;float:right;background-color:red;position: absolute;right:0px;top:70px;z-index: 51;background-image: url(tupian/jt-2.png);background-position: -32px 0px;cursor: pointer;}
+/*.xjt2 a{width:28px;height:35px;float:right;background-image: url(tupian/jt-2.png);background-position: -32px 0px;}*/
 
 
 
